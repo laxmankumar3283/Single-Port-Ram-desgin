@@ -1,0 +1,45 @@
+$date
+Sat Aug  5 01:05:08 2023
+$end
+$version
+Riviera-PRO Version 2022.04.117.8517
+$end
+$timescale
+1 ns
+$end
+
+$scope module single_port_ram_tb $end
+$var wire 8 ! q [7:0] $end
+$var reg 8 " data [7:0] $end
+$var reg 6 # addr [5:0] $end
+$var reg 1 $ we $end
+$var reg 1 % clk $end
+
+$scope module uut $end
+$var wire 8 & data [7:0] $end
+$var wire 6 ' addr [5:0] $end
+$var wire 1 ( we $end
+$var wire 1 ) clk $end
+$var wire 8 ! q [7:0] $end
+$var reg 6 * addr_reg [5:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+bx !
+b1 "
+b0 #
+1$
+1%
+b1 &
+b0 '
+1(
+1)
+bx *
+$end
+#5
+0%
+0)
+#10
